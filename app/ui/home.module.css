@@ -1,0 +1,46 @@
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.acmelogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+.globealticon {
+    height: 3rem;
+    width: 3rem;
+    rotate: 15deg;
+}
+
+.acme {
+    font-size: 44px;
+}
+
+.division4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    @media screen and (min-width:768px) {
+      width: 60%;
+      padding-left: 7rem;
+      padding-right: 7rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  .division4desktopimage {
+    display: none;
+    @media screen and (min-width:768px) {
+      display:block;
+    }
+  }
